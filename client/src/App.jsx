@@ -1,19 +1,22 @@
-import React from "react";
 import Home from "./components/Home";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Donate from "./components/Donate";
-import "./carousel.css"
+import "./carousel.css";
+import Checkout from "./components/Checkout";
+import React, { useState, useEffect } from "react";
+
 
 function App() {
+
   return (
     <div>
       <NavBar />
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/donate" element={<Donate />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
+
       </div>
     </div>
   );

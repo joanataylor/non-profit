@@ -29,7 +29,7 @@ function NavBar() {
                     className="nav-link active"
                     aria-current="page"
                     style={{ color: "black" }}
-                    to="/donate"
+                    to="/checkout"
                   >
                     <button
                       style={{
