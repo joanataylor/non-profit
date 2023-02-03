@@ -33,7 +33,13 @@ function Home() {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="img-fluid" src={MateusPic} alt="error" width="272" height="257"/>
+              <img
+                className="img-fluid"
+                src={MateusPic}
+                alt="error"
+                width="272"
+                height="257"
+              />
 
               <div className="container">
                 <div className="carousel-caption text-start">
@@ -158,7 +164,7 @@ function Home() {
                 </text>
               </svg>
 
-              <h2 className="fw-normal">Heading</h2>
+              <h2 className="fw-normal">Portugal</h2>
               <p>
                 Some representative placeholder content for the three columns of
                 text below the carousel. This is the first column.
@@ -187,7 +193,7 @@ function Home() {
                 </text>
               </svg>
 
-              <h2 className="fw-normal">Heading</h2>
+              <h2 className="fw-normal">News</h2>
               <p>
                 Another exciting bit of representative placeholder content. This
                 time, we've moved on to the second column.
@@ -216,7 +222,7 @@ function Home() {
                 </text>
               </svg>
 
-              <h2 className="fw-normal">Heading</h2>
+              <h2 className="fw-normal">Events</h2>
               <p>
                 And lastly this, the third column of representative placeholder
                 content.
@@ -234,8 +240,8 @@ function Home() {
           <div className="row featurette">
             <div className="col-md-7">
               <h2 className="featurette-heading fw-normal lh-1">
-                First featurette heading.{" "}
-                <span className="text-muted">It’ll blow your mind.</span>
+                {" "}
+                <span className="text-muted"></span>
               </h2>
               <p className="lead">
                 Through the “A Cultura em Diálogo” cycle, begun on 3 December
@@ -245,17 +251,18 @@ function Home() {
                 then, numerous Seminars and Meetings have been organised, many
                 by the Fundação itself, others by those associated with us.
                 These have debated very varied aspects of Portuguese society and
-                the most pressing local and national needs. In the scientific
-                field, 1986 saw the founding, with the support of all the Public
-                Universities and Scientific Academies in Portugal, of the
-                Instituto Internacional Casa de Mateus, which every year
-                organises and hosts international seminars at Mateus, bringing
-                together researchers from a wide range of countries to discuss
-                matters of common interest.
+                the most pressing local and national needs...
+                <a
+                  href="http://casademateus.com/the-foundation/?lang=en"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  read more
+                </a>
               </p>
             </div>
             <div className="col-md-5">
-              <img className="img-fluid" src={MateusGarden} alt="error" />
+              <img className="img-fluid" src={MateusPic} alt="error" />
               {/* <svg
               className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               width="500"
@@ -280,34 +287,25 @@ function Home() {
           <div className="row featurette">
             <div className="col-md-7 order-md-2">
               <h2 className="featurette-heading fw-normal lh-1">
-                Oh yeah, it’s that good.{" "}
-                <span className="text-muted">See for yourself.</span>
+                {" "}
+                <span className="text-muted"></span>
               </h2>
               <p className="lead">
-                The Casa de Mateus Foundation was established on December 3,
-                1970, by D. Francisco de Sousa Botelho de Albuquerque, 3rd Count
-                of Mangualde, 6th Count of Vila Real and 5th Count de Melo, who
-                donated a substantial part of his estate to the Foundation. His
-                intent was to his family’s legacy. The Mission of the Casa de
-                Mateus Foundation is clearly articulated in its bylaws: restore
-                and preserve the Casa de Mateus (a Portuguese National Monument)
-                and its gardens, research and publish the rich history and
-                heritage of the house and family (dating back to the XII
-                century), and support artistic, cultural, educational, and
-                social science activities that further these aims. D.Francisco
-                was following in the footsteps of many generations of forebears
-                who sought to consolidate and preserve the family’s holdings;
-                yet did so with a modern twist by creating a non-profit
-                Foundation with a public, cultural and educational mission, thus
-                ensuring its continuation into the 21st century and its
-                relevance for future generations. Today, the Casa de Mateus
-                Foundation is a dynamic organisation noted for its role in
-                promoting art, culture, and education and for the excellence and
-                variety of its work and publications. Its priceless heritage,
-                assembled over centuries, is now managed as a whole and is
-                accessible to the public. The founder’s family has played a
-                major role in the Foundation’s evolution and growth and
-                continues to be actively engaged.
+                The Casa de Mateus was built in the first half of the 18th
+                century by António José Botelho Mourão, 3rd Morgado de Mateus.
+                This replaced the former family house which had stood on the
+                site since the beginning of the 17th century. In 1910, it was
+                classified as a National Monument.The artefacts on permanent
+                display at the Casa de Mateus constitute an important and unique
+                collection of heritage and artistic value that communicates the
+                history of the Family...
+                <a
+                  href="http://casademateus.com/sightseeing-wine-tourism/house-and-chapel/?lang=en"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  read more
+                </a>
               </p>
             </div>
             <div className="col-md-5 order-md-1">
@@ -336,18 +334,27 @@ function Home() {
           <div className="row featurette">
             <div className="col-md-7">
               <h2 className="featurette-heading fw-normal lh-1">
-                And lastly, this one.{" "}
-                <span className="text-muted">Checkmate.</span>
+                {" "}
+                <span className="text-muted"></span>
               </h2>
               <p className="lead">
-                And yes, this is the last block of representative placeholder
-                content. Again, not really intended to be actually read, simply
-                here to give you a better view of what this would look like with
-                some actual content. Your content.
+                The Casa de Mateus it is a magical place. A time machine that
+                allows us to travel over the last five hundred years of the
+                Portuguese History, Europe and the World. We assure you of an
+                absolutely personalized experience, through the House and the
+                gardens, made up of stories and people that fill our
+                imagination...
+                <a
+                  href="http://casademateus.com/book-a-visit/?lang=en"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  read more
+                </a>
               </p>
             </div>
             <div className="col-md-5">
-              <img className="img-fluid" src={MateusPic} alt="error" />
+              <img className="img-fluid" src={MateusGarden} alt="error" />
               {/* <svg
               className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               width="500"
@@ -371,6 +378,15 @@ function Home() {
         </div>
 
         <footer className="container">
+        <p>
+          <a
+                  href="http://casademateus.com/book-a-visit/?lang=en#book-now"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Book a visit
+                </a>
+          </p>
           <p className="float-end">
             <Link to="#">Back to top</Link>
           </p>
