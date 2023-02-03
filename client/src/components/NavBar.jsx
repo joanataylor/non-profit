@@ -1,15 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MateusLogo from "./img/fcm-logotipo.svg";
+
 
 function NavBar() {
   return (
     <div>
       <header>
-        <nav className="navbar navbar-expand-md navbar-dark sticky-top">
+        <nav className="navbar navbar-expand-md navbar-dark sticky-top" style={{ backgroundColor: "#C1ABA6" }}>
           <div className="container-fluid">
-            <Link className="navbar-brand" style={{ color: "black" }} to="/"><h1>
-              Mateus Palace</h1>
+            <Link className="navbar-brand" style={{ color: "black" }} to="/">
+            <img
+                className="img-fluid"
+                src={MateusLogo}
+                alt="error"
+                width="192"
+                // height="157"
+              />
             </Link>
+
             {/* <button
               className="navbar-toggler"
               type="button"
@@ -33,7 +42,7 @@ function NavBar() {
                   >
                     <button
                       style={{
-                        backgroundColor: "#c8102e",
+                        backgroundColor: "red",
                         borderradius: 5,
                         borderwidth: 3,
                         color: "white",

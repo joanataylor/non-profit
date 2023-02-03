@@ -7,30 +7,9 @@ import MateusEntry from "./img/mateus.jpeg";
 function Home() {
   return (
     <div>
-      <main>
-        <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
+      <main style={{ backgroundColor: "#F8F7F2" }}>
+        {/* <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
+        
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
@@ -48,11 +27,7 @@ function Home() {
                     Some representative placeholder content for the first slide
                     of the carousel.
                   </p>
-                  {/* <p>
-                  <Link className="btn btn-lg btn-primary" to="#">
-                    Sign up today
-                  </Link>
-                </p> */}
+               
                 </div>
               </div>
             </div>
@@ -76,11 +51,7 @@ function Home() {
                     Some representative placeholder content for the second slide
                     of the carousel.
                   </p>
-                  {/* <p>
-                  <Link className="btn btn-lg btn-primary" to="#">
-                    Learn more
-                  </Link>
-                </p> */}
+                
                 </div>
               </div>
             </div>
@@ -104,22 +75,17 @@ function Home() {
                     Some representative placeholder content for the third slide
                     of this carousel.
                   </p>
-                  {/* <p>
-                  <Link className="btn btn-lg btn-primary" to="#">
-                    Browse gallery
-                  </Link>
-                </p> */}
                 </div>
               </div>
             </div>
-          </div>
-          <button
+          </div> */}
+          {/* <button
             className="carousel-control-prev"
             type="button"
             data-bs-target="#myCarousel"
             data-bs-slide="prev"
-          >
-            <span
+          > */}
+            {/* <span
               className="carousel-control-prev-icon"
               aria-hidden="true"
             ></span>
@@ -137,14 +103,9 @@ function Home() {
             ></span>
             <span className="visually-hidden">Next</span>
           </button>
-        </div>
+        </div> */}
 
-        {/* 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. --> */}
-
-        <div className="container marketing">
+        <div className="container marketing pt-3">
           <div className="row">
             <div className="col-lg-4">
               <svg
@@ -169,11 +130,6 @@ function Home() {
                 Some representative placeholder content for the three columns of
                 text below the carousel. This is the first column.
               </p>
-              {/* <p>
-              <Link className="btn btn-secondary" to="#">
-                View details &raquo;
-              </Link>
-            </p> */}
             </div>
             <div className="col-lg-4">
               <svg
@@ -198,11 +154,7 @@ function Home() {
                 Another exciting bit of representative placeholder content. This
                 time, we've moved on to the second column.
               </p>
-              {/* <p>
-              <Link className="btn btn-secondary" to="#">
-                View details &raquo;
-              </Link>
-            </p> */}
+            
             </div>
             <div className="col-lg-4">
               <svg
@@ -227,11 +179,7 @@ function Home() {
                 And lastly this, the third column of representative placeholder
                 content.
               </p>
-              {/* <p>
-              <Link className="btn btn-secondary" to="#">
-                View details &raquo;
-              </Link>
-            </p> */}
+             
             </div>
           </div>
 
@@ -263,22 +211,7 @@ function Home() {
             </div>
             <div className="col-md-5">
               <img className="img-fluid" src={MateusPic} alt="error" />
-              {/* <svg
-              className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg> */}
+            
             </div>
           </div>
 
@@ -310,22 +243,7 @@ function Home() {
             </div>
             <div className="col-md-5 order-md-1">
               <img className="img-fluid" src={MateusEntry} alt="error" />
-              {/* <svg
-              className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg> */}
+        
             </div>
           </div>
 
@@ -355,22 +273,7 @@ function Home() {
             </div>
             <div className="col-md-5">
               <img className="img-fluid" src={MateusGarden} alt="error" />
-              {/* <svg
-              className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg> */}
+      
             </div>
           </div>
 
@@ -378,14 +281,14 @@ function Home() {
         </div>
 
         <footer className="container">
-        <p>
-          <a
-                  href="http://casademateus.com/book-a-visit/?lang=en#book-now"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Book a visit
-                </a>
+          <p>
+            <a
+              href="http://casademateus.com/book-a-visit/?lang=en#book-now"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Book a visit
+            </a>
           </p>
           <p className="float-end">
             <Link to="#">Back to top</Link>
