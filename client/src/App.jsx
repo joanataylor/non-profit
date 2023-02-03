@@ -15,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/https://buy.stripe.com/test_7sIcPi1B54qH8lq5kl" element={<Checkout />} />
         </Routes>
 
       </div>

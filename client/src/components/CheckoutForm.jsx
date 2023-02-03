@@ -93,26 +93,17 @@ export default function CheckoutForm() {
         />
         <PaymentElement id="payment-element" options={paymentElementOptions} />
         <button disabled={isLoading || !stripe || !elements} id="submit">
-          <span id="button-text">
+          <span className="w-100 btn btn-primary btn-lg" type="submit" id="button-text">
             {isLoading ? (
               <div className="spinner" id="spinner"></div>
             ) : (
-              "Pay now"
+              "Donate now"
             )}
           </span>
         </button>
         {/* Show any error or success messages */}
         {message && <div id="payment-message">{message}</div>}
       </form>
-
-      <footer className="my-5 pt-5 text-muted text-center text-small">
-    <p className="mb-1">&copy; 2023 Mateus Palace</p>
-    <ul className="list-inline">
-      <li className="list-inline-item"><Link to="#">Privacy</Link></li>
-      <li className="list-inline-item"><Link to="#">Terms</Link></li>
-      <li className="list-inline-item"><Link to="#">Support</Link></li>
-    </ul>
-  </footer>
 
     </div>
   );
