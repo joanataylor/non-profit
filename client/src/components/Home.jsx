@@ -79,13 +79,13 @@ function Home() {
               </div>
             </div>
           </div> */}
-          {/* <button
+        {/* <button
             className="carousel-control-prev"
             type="button"
             data-bs-target="#myCarousel"
             data-bs-slide="prev"
           > */}
-            {/* <span
+        {/* <span
               className="carousel-control-prev-icon"
               aria-hidden="true"
             ></span>
@@ -154,7 +154,6 @@ function Home() {
                 Another exciting bit of representative placeholder content. This
                 time, we've moved on to the second column.
               </p>
-            
             </div>
             <div className="col-lg-4">
               <svg
@@ -179,7 +178,6 @@ function Home() {
                 And lastly this, the third column of representative placeholder
                 content.
               </p>
-             
             </div>
           </div>
 
@@ -199,7 +197,9 @@ function Home() {
                 then, numerous Seminars and Meetings have been organised, many
                 by the Fundação itself, others by those associated with us.
                 These have debated very varied aspects of Portuguese society and
-                the most pressing local and national needs...
+                the most pressing local and national needs In the scientific
+                field, 1986 saw the founding, with the support of all the Public
+                Universities and Scientific Academies in Portugal...
                 <a
                   href="http://casademateus.com/the-foundation/?lang=en"
                   target="_blank"
@@ -211,7 +211,6 @@ function Home() {
             </div>
             <div className="col-md-5">
               <img className="img-fluid" src={MateusPic} alt="error" />
-            
             </div>
           </div>
 
@@ -231,7 +230,9 @@ function Home() {
                 classified as a National Monument.The artefacts on permanent
                 display at the Casa de Mateus constitute an important and unique
                 collection of heritage and artistic value that communicates the
-                history of the Family...
+                history of the Family and the House. The Casa de Mateus is
+                nowadays a living museum which retains the original arrangements
+                and functions of many of its rooms...
                 <a
                   href="http://casademateus.com/sightseeing-wine-tourism/house-and-chapel/?lang=en"
                   target="_blank"
@@ -243,7 +244,6 @@ function Home() {
             </div>
             <div className="col-md-5 order-md-1">
               <img className="img-fluid" src={MateusEntry} alt="error" />
-        
             </div>
           </div>
 
@@ -261,7 +261,10 @@ function Home() {
                 Portuguese History, Europe and the World. We assure you of an
                 absolutely personalized experience, through the House and the
                 gardens, made up of stories and people that fill our
-                imagination...
+                imagination, A tour of the Grand Floor of the House enables the
+                visitor to view the original rooms and contents of the House as
+                well as the Museum’s exhibition rooms, first installed by D.
+                Francisco de Sousa Botelho de Albuquerque...
                 <a
                   href="http://casademateus.com/book-a-visit/?lang=en"
                   target="_blank"
@@ -273,7 +276,6 @@ function Home() {
             </div>
             <div className="col-md-5">
               <img className="img-fluid" src={MateusGarden} alt="error" />
-      
             </div>
           </div>
 
